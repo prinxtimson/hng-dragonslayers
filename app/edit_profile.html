@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Blog App</title>
+
+    <link rel="stylesheet" href="css/blog.css" />
+  </head>
+
+  <body>
+    <section class="user-section">
+      <div class="user-image">
+        <img src="img/avatar.png" alt="avatar" />
+      </div>
+      <div class="user-info">
+        <h2>Saviour Essien</h2>
+        <p>Designer - UI/UX & Brand Identity</p>
+        <p>Always happy</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-medium"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <nav>
+        <ul class="navigation">
+          <li><a href="#" class="active-link">Timeline</a></li>
+          <li><a href="#">My Articles</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="edit-field">
+      <div class="edit-profile-form">
+          <h3>Edit Profile</h3>
+          <form action="">
+              <table>
+                  <tr>
+                      <td class="td-text-input">
+                            <label for="firstName">First Name</label><br>
+                            <input type="text" name="firstName" placeholder="First Name" /><br>
+                            <label for="firstName">Last Name</label><br>
+                            <input type="text" name="lastName" placeholder="Last Name" /><br>
+                      </td>
+                      <td>
+                            <input class="td-image-input" type="file" name="fileToUpload" id="fileToUpload">
+                      </td>
+                  </tr>
+              </table><hr><br>
+            <label for="aboutMe">About Me</label><br>
+            <textarea
+              name="aboutMe"
+              placeholder="Your text here"
+              id="article"
+              cols="10"
+              rows="5"
+            ></textarea><br>
+            <button type="submit" class="btn btn-button">Save</button>
+          </form>
+      </div>
+      <div class="edit-profile-form">
+          <h3>Account Settings</h3>
+          <div class="select-theme">
+              <table>
+                  <tr>
+                      <td class="theme">
+                            <p>Theme</p>
+                      </td>
+                      <td class="radio-input">
+                            <input type="radio" name="theme" value="softTheme">Soft Theme</input><br><br>
+                            <input type="radio" name="theme" value="darkTheme">Dark Theme</input>
+                      </td>
+                  </tr>
+              </table>
+              
+          </div>
+          <div class="night-mode">
+            <span class="">Night Mode</span>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+          </div>
+      </div>
+
+      <div>
+          <h5><a href="#">Manage Feed</a></h5>
+          <span>Manage blog you follow and discover new ones</span>
+      </div>
+      
+    </section>
+    <section>
+
+    </section>
+  </body>
+</html>

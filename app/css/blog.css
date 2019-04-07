@@ -66,11 +66,67 @@ ul li a.active-link {
     width: 70%;
 }
 
+.theme {
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.td-text-input{
+    width: 70%;
+    padding: 0px;
+}
+
+.td-image-input{
+    width: 100%;
+    padding:20px
+
+}
+.night-mode{
+    margin-top: 20px;
+    display: block;
+}
+
+.edit-field {
+    float: right;
+    margin: 20px auto 0 auto;
+    padding-right: 30px;
+    width: 70%;
+}
+
 .article-form  {
     background: #FCFCFC;
     border-radius: 4px;
     margin-bottom: 70px;
     padding: 15px;
+}
+
+.edit-profile-form  {
+    border-radius: 4px;
+    padding: 5px 20px 10px 20px;
+}
+
+.edit-profile-form input[type="text"] {
+    border: 1px solid #333333;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.edit-profile-form textarea {
+    border: 1px solid #333333;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 70%;
+}
+
+h3{
+    background-color:  #f0eeee;
+    padding: 5px
 }
 
 .article-form input[type="text"], .article-form textarea  {
